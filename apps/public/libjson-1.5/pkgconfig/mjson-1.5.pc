@@ -1,0 +1,12 @@
+prefix=/proj/osbnbuilder/52538/BBN_Linux/Branch/SDK/tclinux_phoenix/apps/public/libjson-1.5
+exec_prefix=${prefix}
+libdir=/proj/osbnbuilder/52538/BBN_Linux/Branch/SDK/tclinux_phoenix/apps/public/libjson-1.5
+includedir=/proj/osbnbuilder/52538/BBN_Linux/Branch/SDK/tclinux_phoenix/apps/public/libjson-1.5
+
+Name: mjson-1.5
+Description: M's JSON Parser
+Requires:
+Version: 1.5
+Libs: -L${libdir} -lmjson-1.5
+Cflags: -I${includedir}/mjson-1.5
+
